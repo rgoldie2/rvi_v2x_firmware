@@ -302,7 +302,7 @@ void menu_can (void) {
 		break;
 	case '?':
 	default:
-		usb_tx_string_P(PSTR("*** CANbus Menu ***\rE: Enable\rD: Disable\rR: Restart\rS: Store config string to EE\rA: Execute commands stored in EE\rW: Display stored EE commandsI: Subsystem Information\rQ: Query status\r"));
+		usb_tx_string_P(PSTR("*** CANbus Menu ***\rE: Enable\rD: Disable\rR: Restart\rS: Store config string to EE\rA: Execute commands stored in EE\rW: Display stored EE commands\rI: Subsystem Information\rQ: Query status\r"));
 		break;
 	}
 }
